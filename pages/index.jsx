@@ -3,6 +3,8 @@ import Link from 'next/link';
 const pages = [
   'emoji-mart',
   'nanoid',
+  'react-smooth-dnd',
+  'react-beautiful-dnd',
 ];
 
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
       <h1>Reactoy</h1>
       <h3>pages</h3>
       <nav>
-        {pages.map(page => (
+        {pages.map((page) => (
           <li>
             <Link href={`${page}`}>{page}</Link>
           </li>

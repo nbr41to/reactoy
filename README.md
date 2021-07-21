@@ -11,3 +11,4 @@
 - styled-components
 - emoji-mart
 - nanoid
+- react-smooth-dnd
