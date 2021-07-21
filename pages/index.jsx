@@ -1,11 +1,6 @@
 import Link from 'next/link';
 
-const pages = [
-  'emoji-mart',
-  'nanoid',
-  'react-smooth-dnd',
-  'react-beautiful-dnd',
-];
+const pages = ['emoji-mart', 'nanoid', 'react-smooth-dnd'];
 
 export default function Home() {
   return (
